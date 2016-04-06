@@ -4,15 +4,7 @@ version: 1
 api_version: 1
 
 handlers:
-- url: /baidu.php
-  script: baidu.php
-- url: /tieba.php
-  script: tieba.php
-- url: /test.php
-  script: test.php
-- url: /hello.php
-  script: hello.php
-- url: /info.php
-  script: info.php
-- url: /.*
-  script: index.php
+- url: /(.*)
+  script: \1
+  
+
