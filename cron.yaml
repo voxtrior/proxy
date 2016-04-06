@@ -1,0 +1,4 @@
+cron:
+- description: cron
+  url: /tieba.php
+  schedule: every 8 hours synchronized
