@@ -1,5 +1,9 @@
 <?php
 
-  echo "hello world";
+  $a = new Memcache;
+  
+  $a->set("nihao","shijie");
+  
+  echo $a->get("nihao");
 
   ?>
