@@ -1,4 +1,4 @@
-#cron:
-#- description: cron
-#  url: /index.php
-#  schedule: every 8 hours synchronized
+cron:
+- description: cron
+  url: /index.php
+  schedule: every 8 hours synchronized
