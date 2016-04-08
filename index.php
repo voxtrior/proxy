@@ -44,6 +44,6 @@ echo   file_get_contents($url,false,$context);
 }  
 // for ($i=0;$i<10;++$i)
  {
-       signadd();
+ //      signadd();
  }
 ?>
