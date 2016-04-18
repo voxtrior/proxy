@@ -49,7 +49,7 @@ for ( $i=0;$i<count($m[1]);++$i)
   $ss = get($m[1][$i]);
    preg_match("/(magnet:.*)\'/U",$ss,$mm);
    echo  "<textarea onclick=\"jQuery(this).select();\" readonly> ".$mm[1]."</textarea>";
-//   sleep(2);
+   sleep(2);
 }
 }
   $u = $_POST["flag"];
